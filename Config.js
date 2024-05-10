@@ -4,9 +4,9 @@ const chalk = require('chalk')
 //contact details
 global.ownernumber =  "+923255817117"
 global.ownername = "ShaYan AFriDi"
-global.ytname = "YT: AyushBotz.inc"
-global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.ytname = "YT: ShaYan-AFriDi"
+global.socialm = "GitHub: QXS-871"
+global.location = "Pakistan"
 
 global.ownername = 'Ayush' //owner name
 global.botname = '𝐌𝐀𝐑𝐈𝐀-𝐌𝐃' //name of the bot
