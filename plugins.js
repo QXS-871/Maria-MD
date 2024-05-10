@@ -24,7 +24,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "919931122319"
+let phoneNumber = "923140529832"
 let owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -160,7 +160,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 Maria.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
-console.log(chalk.green('🟨Welcome to Maria-md'));
+console.log(chalk.green('🟨Welcome to ShaYan-md'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
 console.log(chalk.cyan('\n\n🧩Connected'));
 
@@ -312,9 +312,9 @@ Maria.sendMessage(anu.id,
   Mariabody = `┌──⊰🍁𝑭𝑨𝑹𝑬𝑾𝑬𝑳𝑳🍁⊰
 │⊳  👤 From: ${metadata.subject}
 │⊳  📃 Reason: Left
-│⊳  📔 Name: @${MariaName.split("@")[0]}
+│⊳  📔 Name: @${ShayanName.split("@")[0]}
 │⊳  👥 Members: ${Mariamembers}th
-│⊳  🕒 Time: ${Mariatime} ${Mariadate}
+│⊳  🕒 Time: ${Shayantime} ${Shayandate}
 └──────────⊰
 
 
@@ -336,9 +336,9 @@ const Mariabuffer = await getBuffer(ppuser)
 const Mariatime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const Mariadate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let MariaName = num
-Mariabody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${MariaName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
+Mariabody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${ShayanName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
    Maria.sendMessage(anu.id,
- { text: Mariabody,
+ { text: Shayanbody,
  contextInfo:{
  mentionedJid:[num],
  "externalAdReply": {"showAdAttribution": true,
@@ -354,7 +354,7 @@ const Mariabuffer = await getBuffer(ppuser)
 const Mariatime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const Mariadate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let MariaName = num
-Mariabody = `𝗢𝗼𝗽𝘀‼️ @${MariaName.split("@")[0]}, you have been *demoted* from *admin* 😬`
+Mariabody = `𝗢𝗼𝗽𝘀‼️ @${ShayanName.split("@")[0]}, you have been *demoted* from *admin* 😬`
 Maria.sendMessage(anu.id,
  { text: Mariabody,
  contextInfo:{
