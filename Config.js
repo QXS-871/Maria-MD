@@ -9,18 +9,18 @@ global.socialm = "GitHub: QXS-871"
 global.location = "Pakistan"
 
 global.ownername = 'Ayush' //owner name
-global.botname = '𝐌𝐀𝐑𝐈𝐀-𝐌𝐃' //name of the bot
+global.botname = 'ShaYan-AFriDi' //name of the bot
 
 //sticker details
-global.stickername = '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰'
+global.stickername = '💙𓆩‎✘ʏSuLiMan✘𓆪_✰'
 global.packname = 'Sticker By'
-global.author = 'Maria Bot'
+global.author = 'ShaYan Bot'
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "Ayush botz inc."
+global.wm = "ShaYan botz inc."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
+global.link = 'https://chat.whatsapp.com/KSPfEzy2fpcAZT89AifEmb'
 
 //custom prefix
 global.prefa = ['.']
